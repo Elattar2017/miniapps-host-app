@@ -4,7 +4,8 @@
  * The HOST_JWT_SECRET must match the Token Factory server's config.
  */
 
-const HOST_JWT_SECRET = 'host-jwt-secret-dev-only';
+// Must match the JWT_SECRET on the production API + Token Factory
+const HOST_JWT_SECRET = 'coolify-jwt-secret-1773535531';
 
 // ── Pure-JS SHA-256 ─────────────────────────────────────────────────────────
 // Standard implementation of SHA-256 for environments without Node.js crypto.

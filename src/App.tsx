@@ -21,8 +21,8 @@ import {ModuleScreen} from './screens/ModuleScreen';
 import {AccountScreen} from './screens/AccountScreen';
 import {SettingsScreen} from './screens/SettingsScreen';
 
-// SDK Backend serves both modules and APIs on one port
-const SDK_BACKEND_URL = 'http://localhost:3001';
+// Production backend
+const SDK_BACKEND_URL = 'https://api.miniapps.work';
 
 type RootStackParamList = {
   Tabs: undefined;
