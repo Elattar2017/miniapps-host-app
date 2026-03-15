@@ -5,8 +5,8 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          '@attar/enterprise-module-sdk': '../../index.ts',
-          '@sdk': '../../src',
+          '@attar/enterprise-module-sdk': '../sdk/index.ts',
+          '@sdk': '../sdk/src',
         },
       },
     ],

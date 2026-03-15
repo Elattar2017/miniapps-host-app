@@ -136,7 +136,7 @@ function AppNavigator({
       apiBaseUrl={SDK_BACKEND_URL}
       moduleRegistryUrl={SDK_BACKEND_URL}
       locale={locale}
-      encryptionKey="sdk-module-encryption-key-change-in-prod"
+      encryptionKey="sdk-module-key-1773535533"
       zones={{
         actions: {
           type: 'actions',

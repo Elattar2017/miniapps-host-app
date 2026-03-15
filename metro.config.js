@@ -1,7 +1,7 @@
 const path = require('path');
 const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
 
-const sdkRoot = path.resolve(__dirname, '../..');
+const sdkRoot = path.resolve(__dirname, '../sdk');
 
 /**
  * Metro configuration for WeConnect Sample App
