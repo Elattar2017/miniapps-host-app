@@ -1,0 +1,32 @@
+lsof -ti:8081 | xargs kill -9 2>/dev/null;   --kill metro
+npx react-native start --reset-cache 2>&1.   --start metro
+npx react-native run-ios                     --start mobile 
+npx react-native run-ios --simulator="iPhone 17 Pro" 
+
+
+Bash(lsof -ti:3003 2>/dev/null && echo "module-api running" || echo "module-api NOT running")                                
+  ⎿  12811                                                                                                                     
+     module-api running    
+
+
+  # Verify module-api is listening                                                                                            
+   lsof -i :3003 -sTCP:LISTEN 2>/dev/null                                                                                    
+   echo "---"
+   # Test from localhost                         
+   curl -s -w "\nHTTP %{http_code} in %{time_total}s" http://localhost:3003/api/subscriber/plan 2>&1
+   Verify module-api is reachable
+
+
+   use you super intelegance and feature dev and ultra think and tell what tyhen most profeessional way to create unique expencinal enahnacment 
+
+
+    cd /Users/we/Desktop/sdk/apps/sdk-backend && npm run dev:api //port 3001
+
+    cd /Users/we/Desktop/sdk/apps/sdk-backend && npm run dev:web //port 3000
+
+    cd /Users/we/Desktop/sdk && npm run module-server  # port 3000
+
+    cd /Users/we/Desktop/sdk && npm run api-server      # port 3001
+
+
+
