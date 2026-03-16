@@ -33,6 +33,10 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>WeConnect needs camera access for ID verification and document scanning</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>WeConnect needs photo library access to upload profile photos and documents</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>RCTNewArchEnabled</key>
